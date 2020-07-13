@@ -1,0 +1,2 @@
+# Coding Style
+This project shall generally follow the [Linux Kernel coding style](https://www.kernel.org/doc/html/v4.10/process/coding-style.html), with the only deviation from tab stop size (4 spaces instead of 8).
