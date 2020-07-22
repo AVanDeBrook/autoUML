@@ -1,0 +1,1 @@
+docker run -it --rm -v %cd%:/autouml-dev/ auto-uml-docker:latest
