@@ -6,4 +6,5 @@ main.out: source/main.cpp
 	$(CC) $(LIB) $(INC) $^ -o $@
 
 clean:
-	del *.exe
+	rm *.out
+
