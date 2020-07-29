@@ -37,9 +37,9 @@ int main(int argc, char **argv)
         return CXChildVisit_Recurse;
     }, nullptr);
 
-    cout << "Functions:" << endl;
+    cout << "Function Name(s):" << endl;
     for (string s : function_list) {
-        cout << s << endl;
+        cout << "\t" << s << endl;
     }
 
     clang_disposeTranslationUnit(unit);

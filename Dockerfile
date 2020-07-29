@@ -1,11 +1,10 @@
 FROM ubuntu:latest
 
-RUN apt-get update
+RUN apt-get -qy update
 
-RUN apt-get -qy install bison
-RUN apt-get -qy install flex
-RUN apt-get -qy install gcc
-RUN apt-get -qy install default-jre
+RUN apt-get -qy install make
+RUN apt-get -qy install clang
+RUN apt-get -qy install libclang-10-dev
 
 RUN mkdir autouml-dev
 

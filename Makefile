@@ -1,9 +1,9 @@
 CC = clang++
-INC =
-LIB = -llib/libclang -Ilib
+INC = -Ilib
+LIB = -lclang
 
-main.exe: source/main.cpp
-	$(CC) $(LIB) $^ -o $@
+main.out: source/main.cpp
+	$(CC) $(LIB) $(INC) $^ -o $@
 
 clean:
 	del *.exe
