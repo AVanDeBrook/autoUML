@@ -11,4 +11,3 @@ This project is intended to be developed in a FOSS style SDLC and will have an o
 Here's the short of it though:
 * This project (generally) follows the [Linux kernel coding style](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
 * Issues are created for feature requests and then a branch and pull request are created to implement and review requested changes
-* This project will follow a test driven development (TDD) process. If this project ends up being implemented in Java it will use JUnit. If python a testing suite will need to be found

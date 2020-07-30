@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Parser.hpp"
+#include "Parser/Parser.hpp"
 
 int main(int argc, char **argv)
 {

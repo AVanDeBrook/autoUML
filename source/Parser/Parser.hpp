@@ -11,8 +11,7 @@
 
 using namespace std;
 
-class Parser
-{
+class Parser {
     private:
         /****** Private Class Attributes ******/
         CXIndex index;
@@ -35,8 +34,5 @@ class Parser
         /****** Accessor Functions ******/
         string getSourceFile(void);
         void setSourceFile(string fileName);
-
-
-
 };
 #endif
