@@ -1,10 +1,10 @@
 CC = clang++
-INC = -Ilib
+INC = -Ilib -Isource/Parser -Isource/Parser/FunctionObj
 LIB = -lclang
 
-main.out: source/main.cpp
-	$(CC) $(LIB) $(INC) $^ -o $@
+main.out: source/main.cpp source/Parser/Parser.cpp source/Parser/FunctionObj/FunctionObj.cpp
+	$(CC) $(LIB) $(INC) $^ -o out/$@
 
 clean:
-	rm *.out
+	rm out/*.out
 
